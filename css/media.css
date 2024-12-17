@@ -1,0 +1,477 @@
+/* ============================ */
+
+@media screen and (min-width: 480px) {
+
+    /* ===========parent=============== */
+    .items-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "photo1 photo1"
+            "photo2 photo2"
+            "photo3 photo4"
+            "photo5 photo5"
+            "photo6 photo8"
+            "photo7 photo8"
+            "photo9 photo9"
+            "photo10 photo10";
+    }
+
+    .photo1 {
+        grid-area: photo1;
+    }
+
+    .photo2 {
+        grid-area: photo2;
+    }
+
+    .photo3 {
+        grid-area: photo3;
+    }
+
+    .photo4 {
+        grid-area: photo4;
+    }
+
+    .photo5 {
+        grid-area: photo5;
+    }
+
+    .photo6 {
+        grid-area: photo6;
+    }
+
+    .photo7 {
+        grid-area: photo7;
+    }
+
+    .photo8 {
+        grid-area: photo8;
+    }
+
+    .photo9 {
+        grid-area: photo9;
+    }
+
+    .photo10 {
+        grid-area: photo10;
+    }
+
+    /* ==========photo2============== */
+
+    .photo2 {
+        display: flex;
+        flex-direction: row;
+
+
+
+    }
+
+    .photo2 p {
+        font-size: 30px;
+        padding-block: 20px;
+        width: 80%;
+
+    }
+
+    .photo2 h6 {
+        color: #777;
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .photo2 .mobile {
+        width: 100%;
+    }
+
+    /* =========photo5============== */
+
+    .photo5 {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+
+    }
+
+    .photo5 h3 {
+        font-size: 25px;
+        padding-bottom: 50px;
+        width: 85%;
+        padding-top: 20px;
+    }
+
+    .photo5-imag {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .photo5 .photo5-image {
+        width: 100%;
+        position: static;
+        height: 100%;
+
+    }
+
+    .photo5 .photo5-image img {
+        width: 200%;
+        position: relative;
+        left: -130%;
+
+    }
+
+    .photo5 .machine {
+        height: 100%;
+    }
+
+    .photo5 .machine p {
+        width: 100%;
+        font-size: 16;
+
+    }
+
+    .photo5 .machine a {
+        text-decoration: none;
+        color: #27B9C2;
+        font-size: 17px;
+    }
+
+   
+
+    /* ==========photo6============ */
+    .photo6 {
+        padding-inline: 50px;
+    }
+
+    /* ==========photo7============ */
+    .photo7 {
+        background-image: url(images/5bc2f42d5a5ed97dab707e7e_UX.png);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #93b6b7;
+        color: #fff;
+        grid-area: photo7;
+
+    }
+
+    .photo7 button {
+        align-self: flex-start;
+        font-size: 10px;
+        margin: 20px;
+        background-color: tomato;
+        border: transparent;
+        padding: 4px;
+        border-radius: 5px;
+    }
+
+    .photo7 h3 {
+        font-size: 25px;
+
+    }
+
+    .photo7 img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 100px;
+    }
+
+
+
+    /* ===========photo8=================== */
+    .photo8 .foloppy-image h5 img {
+        width: 40%;
+        margin-right: 10px;
+    }
+
+    .photo8 .foloppy-image img {
+        width: 50%;
+    }
+
+    .photo8 .iCloud p {
+        font-size: 18px;
+        width: 100%;
+
+    }
+
+    /* ===========photo10================ */
+    .photo10 {
+        width: 100%;
+        background-color: #2C2C2C;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-area: photo10;
+    }
+
+    .photo10 img {
+        width: 80%;
+        margin-top: -1px;
+
+    }
+
+    .photo10 p {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        font-size: 25px;
+        color: #fff;
+        width: 80%;
+    }
+
+}
+
+/* ================================================================================= */
+
+@media screen and (min-width: 990px) {
+
+/* ===========parent=============== */
+    .items-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "photo2 photo2 photo2 photo2 photo2 photo2 photo1 photo1 photo1 photo1 photo1 photo1"
+            "photo2 photo2 photo2 photo2 photo2 photo2 photo1 photo1 photo1 photo1 photo1 photo1"
+            "photo2 photo2 photo2 photo2 photo2 photo2 photo1 photo1 photo1 photo1 photo1 photo1"
+            "photo3 photo3 photo3 photo5 photo5 photo5 photo5 photo5 photo5 photo8 photo8 photo8"
+            "photo3 photo3 photo3 photo5 photo5 photo5 photo5 photo5 photo5 photo8 photo8 photo8"
+            "photo3 photo3 photo3 photo5 photo5 photo5 photo5 photo5 photo5 photo8 photo8 photo8"
+            "photo4 photo4 photo4 photo7 photo7 photo7 photo7 photo7 photo7 photo8 photo8 photo8"
+            "photo4 photo4 photo4 photo7 photo7 photo7 photo7 photo7 photo7 photo8 photo8 photo8"
+            "photo4 photo4 photo4 photo7 photo7 photo7 photo7 photo7 photo7 photo8 photo8 photo8"
+            "photo6 photo6 photo6 photo9 photo9 photo9 photo10 photo10 photo10 photo10 photo10 photo10"
+            "photo6 photo6 photo6 photo9 photo9 photo9 photo10 photo10 photo10 photo10 photo10 photo10"
+            "photo6 photo6 photo6 photo9 photo9 photo9 photo10 photo10 photo10 photo10 photo10 photo10";
+    }
+
+    .photo1 {
+        grid-area: photo1;
+    }
+
+    .photo2 {
+        grid-area: photo2;
+    }
+
+    .photo3 {
+        grid-area: photo3;
+    }
+
+    .photo5 {
+        grid-area: photo5;
+    }
+
+    .photo8 {
+        grid-area: photo8;
+    }
+
+    .photo4 {
+        grid-area: photo4;
+    }
+
+    .photo7 {
+        grid-area: photo7;
+    }
+
+    .photo6 {
+        grid-area: photo6;
+    }
+
+    .photo9 {
+        grid-area: photo9;
+    }
+
+    .photo10 {
+        grid-area: photo10;
+    }
+
+    /* ==========photo2=============== */
+    .photo2 {
+        display: flex;
+        flex-direction: row;
+
+
+
+    }
+
+    .photo2 p {
+        font-size: 30px;
+        padding-block: 20px;
+
+        width: 50%;
+
+    }
+
+    .photo2 h6 {
+        color: #777;
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .photo2 .mobile {
+        width: 50%;
+    }
+
+   /* ============photo3=============== */
+
+    .photo3 {
+        background-color: tomato;
+        text-align: center;
+        width: 100%;
+        grid-area: photo3;
+
+    }
+
+    .photo3 img {
+        width: 80%;
+    }
+
+    /* ==========photo5============= */
+
+    .photo5 {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        justify-content: flex-start;
+
+    }
+
+    .photo5 h3 {
+        font-size: 25px;
+        padding-bottom: 50px;
+        width: 85%;
+        padding-top: 20px;
+    }
+
+    .photo5 .photo5-image {
+        width: 100%;
+        position: static;
+        height: 100%;
+
+    }
+
+    .photo5 .photo5-image img {
+        width: 200%;
+        position: relative;
+        left: -130%;
+
+    }
+
+    .photo5 .machine p {
+        width: 100%;
+        font-size: 16;
+
+    }
+
+    .photo5 .machine a {
+        text-decoration: none;
+        color: #27B9C2;
+        font-size: 17px;
+    }
+
+
+    /* =========photo6============== */
+    .photo6 {
+        padding-inline: 50px;
+    }
+
+    /* =========photo7============== */
+    .photo7 {
+        background-image: url(images/5bc2f42d5a5ed97dab707e7e_UX.png);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #93b6b7;
+        color: #fff;
+        grid-area: photo7;
+
+    }
+
+    .photo7 button {
+        align-self: flex-start;
+        font-size: 10px;
+        margin: 20px;
+        background-color: tomato;
+        border: transparent;
+        padding: 4px;
+        border-radius: 5px;
+    }
+
+    .photo7 h3 {
+        font-size: 25px;
+
+    }
+
+    .photo7 img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 100px;
+    }
+
+    /* ==========photo8============== */
+    .photo8 .foloppy-image h5 img {
+        width: 40%;
+        margin-right: 10px;
+    }
+
+    .photo8 .foloppy-image img {
+        width: 50%;
+    }
+
+    .photo8 .iCloud p {
+        font-size: 18px;
+        width: 100%;
+
+    }
+
+    /* ==========photo10============== */
+    .photo10 {
+        width: 100%;
+        background-color: #2C2C2C;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-area: photo10;
+    }
+
+    .photo10 img {
+        width: 80%;
+        margin-top: -1px;
+
+    }
+
+    .photo10 p {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        font-size: 25px;
+        color: #fff;
+        width: 80%;
+    }
+
+
+}

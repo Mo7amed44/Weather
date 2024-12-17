@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <!--font awesome  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--css-style  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- sweet-alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body>
+    <!-- text home -->
+    <div class="home py-3">
+      <a class="navbar-brand fs-3 mt-5 ps-5 ms-5 text-white" href="#">
+        <i class="fa-solid fa-cloud-sun text-warning fs-3"></i>
+        <span class="text-warning fs-2">W</span>eather.</a
+      >
+
+      <!-- search input -->
+
+      <div class="search w-50 m-auto mb-3 my-5 py-2 shadow">
+        <input
+          id="cityName"
+          type="text"
+          class="search-box ps-3 text-white"
+          placeholder="Enter City Name..."
+        />
+        <button
+          class="search-btn fs-6 py-1 px-3 bg-warning fw-medium rounded-5"
+          id="search"
+        >
+          search
+        </button>
+      </div>
+    </div>
+
+    <!-- cards -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" id="currentData"></div>
+        <div class="col-md-8">
+          <div class="row" id="forecast">
+            <div class="col-md-6 col-sm-12"></div>
+            <div class="col-md-6 col-sm-12"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

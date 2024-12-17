@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/52196025795_06f077377a_c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+}
+
+.search {
+    background-color: rgba(8, 8, 9, 0.5);
+    position: relative;
+    border-radius: 30px;
+
+}
+
+.search-box {
+    background-color: transparent;
+    outline: none;
+    height: 35px;
+    font-size: 15px;
+    border: 0;
+    width: 100%;
+}
+
+.search-btn {
+    position: absolute;
+    right: 9px;
+    top: 10px;
+
+
+    /* background-color: #523A31; */
+    border: 0;
+    color: #523A31;
+
+
+    outline: 0;
+}
+
+.card {
+    height: 370px !important;
+    color: #FFF !important;
+
+    background-color: rgba(33, 34, 37, 0.4);
+}
+
+.card-footer {
+    color: #FFF !important;
+}
+
+.text-body-secondary {
+
+
+    --bs-secondary-color: #fff !important;
+}
