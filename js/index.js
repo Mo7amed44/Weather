@@ -21,9 +21,9 @@ let allArr = [];
 async function getWeather(city = "Alexandria") {
   try {
     let url = city.includes(",") ? 
-      `http://api.weatherapi.com/v1/forecast.json?key=a36154d89fba498f824114607240312&q=${city}&days=3&aqi=yes&alerts=yes`
+`https://api.weatherapi.com/v1/forecast.json?key=a36154d89fba498f824114607240312&q=${city}&days=3&aqi=yes&alerts=yes`
       : 
-      `http://api.weatherapi.com/v1/forecast.json?key=a36154d89fba498f824114607240312&q=${encodeURIComponent(city)}&days=3&aqi=yes&alerts=yes`;
+`https://api.weatherapi.com/v1/forecast.json?key=a36154d89fba498f824114607240312&q=${encodeURIComponent(city)}&days=3&aqi=yes&alerts=yes`
 
     let response = await fetch(url);
     let data = await response.json();
